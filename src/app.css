@@ -1,0 +1,11 @@
+
+.hero-container{
+    border: 1px solid coral;
+    margin:90px auto;
+    width: 1200px;
+    display: flex;
+}
+
+#image{
+    border: none;
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+form{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: lighter;
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 520px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+.header-logo{
+    border: 1px solid gray ;
+    margin-left: 15px;
+    width: fit-content;
+    height: fit-content;
+}
+
+h1{
+    border: 1px solid lightskyblue;
+    margin-left: 20px;
+    width: 90%;
+}
+
+#logo-circle{
+    border-radius: 50%;
+    width: fit-content;
+    height: fit-content;
+}
+.form-header{
+    margin: 0;
+    border: 1px solid yellow;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: bold;
+}
+#green-text{
+    color: #7EC143;
+}
+.make-flex{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.make-flex input{
+    font-size: 18px;
+    color: dimgray;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-left: 28px;
+    margin: 10px;
+    width: 80%;
+    height: 65px;
+}
+.input-bar{
+    border-radius: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.adj-logos{
+    border: 1px solid gray ;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 45px;
+    height: 47px;
+}
+
+.btn{
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 70px;
+}
+
+.login-btn{
+    background: #7EC143;
+}
+
+.help-support-btn{
+    background: #6BAA75;
+}
