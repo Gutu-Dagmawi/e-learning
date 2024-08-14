@@ -1,11 +1,40 @@
-
 .hero-container{
-    border: 1px solid coral;
-    margin:90px auto;
-    width: 1200px;
+    margin:150px 170px;
+    width: 1300px;
     display: flex;
+    justify-content: space-between;
 }
 
-#image{
+.hero-container img{
     border: none;
 }
+
+.image-container {
+    width: 40%;
+    margin: 100px 50px auto 130px;
+    height: 470px;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.image1 {
+    border: none;
+    position: relative;
+    height: 100%;
+    width: fit-content; /* Make this image smaller */
+    left: 230px;
+    bottom: 20px;
+    z-index: 2; /* Ensure this image is at a lower level */
+}
+
+.image2 {
+    position: absolute;
+    left: 85px;
+    bottom: 40px;
+    width: fit-content;
+    height: 110%;
+    z-index: 1; /* Ensure this image is on top */
+}
+
+
