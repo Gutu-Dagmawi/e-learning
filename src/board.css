@@ -1,0 +1,39 @@
+.board-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+.selector-form {
+  margin: 15px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 350px;
+  height: 68%;
+}
+
+.selector-form h1 {
+  margin-left: 0;
+  font-size: 25px;
+  font-weight: 500;
+  color: #58565b;
+}
+
+#filter-btn {
+  width: 150px;
+  height: 55px;
+}
+
+#clear-btn {
+  width: 111px;
+  height: 55px;
+}
+
+.form-btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+}

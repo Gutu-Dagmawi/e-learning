@@ -11,7 +11,7 @@
   cursor: pointer;
   width: 111px;
   height: 55px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .error-button:hover {
@@ -28,7 +28,7 @@
   cursor: pointer;
   width: 111px;
   height: 55px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .success-button:hover {
@@ -45,7 +45,7 @@
   cursor: pointer;
   width: 111px;
   height: 55px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .primary-button:hover {
@@ -62,7 +62,7 @@
   cursor: pointer;
   width: 111px;
   height: 55px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .default-button:hover {

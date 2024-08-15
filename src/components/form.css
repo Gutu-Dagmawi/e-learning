@@ -110,3 +110,14 @@ h1 {
 .help-support-btn {
   background: #6baa75;
 }
+
+.selector {
+  font-size: 15px;
+  color: dimgray;
+  font-weight: 700;
+  border-color: #000;
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  height: 60px;
+}

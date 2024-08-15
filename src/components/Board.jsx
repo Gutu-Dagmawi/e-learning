@@ -21,7 +21,7 @@ export default function Board({ pageTitle, pageTag, profile, children }) {
             justifyContent: "space-between",
             alignItems: "center",
             width: "100%",
-            height: "105px",
+            height: "117px",
           }}
         >
           <span
@@ -89,14 +89,6 @@ export default function Board({ pageTitle, pageTag, profile, children }) {
             </span>
           </span>
         </header>
-        <hr
-          style={{
-            margin: "0px",
-            width: "100%",
-            height: "2px",
-            color: "#4d4c51",
-          }}
-        />
 
         {children}
       </div>
