@@ -1,4 +1,10 @@
-export default function Board({ pageTitle, pageTag, profile, children }) {
+export default function Board({
+  pageTitle,
+  pageTag,
+  profile,
+  children,
+  ...props
+}) {
   return (
     <>
       <div
@@ -9,7 +15,7 @@ export default function Board({ pageTitle, pageTag, profile, children }) {
           alignItems: "center",
           flexDirection: "column",
           width: "84%",
-          height: "1000px",
+          height: "100%",
           background: "#f0f0f0",
         }}
       >
@@ -17,11 +23,11 @@ export default function Board({ pageTitle, pageTag, profile, children }) {
           style={{
             marginTop: "0",
             display: "flex",
-            borderBottom: "3px solid black",
+            borderBottom: "2px solid black",
             justifyContent: "space-between",
             alignItems: "center",
             width: "100%",
-            height: "117px",
+            height: "121px",
           }}
         >
           <span
@@ -60,7 +66,7 @@ export default function Board({ pageTitle, pageTag, profile, children }) {
                 borderRadius: "50%",
               }}
             >
-              DG
+              ES
             </span>
             <span
               style={{
@@ -89,8 +95,18 @@ export default function Board({ pageTitle, pageTag, profile, children }) {
             </span>
           </span>
         </header>
-
-        {children}
+        <div
+          style={{
+            display: `${props.display ? props.display : "flex"}`,
+            flexDirection: `${props.flexDirection ? props.flexDirection : "row"}`,
+            width: "100%",
+            height: "100%",
+            marginLeft: "80px",
+          }}
+          className={"child-container"}
+        >
+          {children}
+        </div>
       </div>
     </>
   );

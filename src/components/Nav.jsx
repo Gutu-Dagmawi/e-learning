@@ -15,6 +15,7 @@ export default function Nav({ at_text, children, ...props }) {
             alignItems: "center",
             width: "100%",
             height: "84px",
+            borderBottom: "2px solid white",
             color: "white",
             padding: "10px",
           }}
@@ -47,14 +48,6 @@ export default function Nav({ at_text, children, ...props }) {
             </p>
           </span>
         </header>
-        <hr
-          style={{
-            margin: "0px",
-            width: "100%",
-            height: "2px",
-            background: "white",
-          }}
-        />
 
         {children}
       </nav>

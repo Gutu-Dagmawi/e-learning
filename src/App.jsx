@@ -1,16 +1,13 @@
-import Form from "./components/Form.jsx";
 import "./app.css";
+import { Dashboard } from "./pages/Dashboard.jsx"; // import StudentPromotion from "./pages/StudentPromotion.jsx";
+// import StudentPromotion from "./pages/StudentPromotion.jsx";
+// import StudentPromotion from "./pages/StudentPromotion.jsx";
+// import Authentication from "./pages/Authentication.jsx";
 
 function App() {
-  return (
-    <div className={"hero-container"}>
-      <div className="image-container">
-        <img src="/hemen.png" alt="Person 1" className="image1" />
-        <img src="/someone.png" alt="Person 2" className="image2" />
-      </div>
-      <Form />
-    </div>
-  );
+  // return <StudentPromotion />;
+  // return <Authentication />;
+  return <Dashboard />;
 }
 
 export default App;

@@ -17,7 +17,7 @@ const Button = ({
       type={type}
       disabled={disabled}
       onClick={onClick}
-      className={`${className ? className : "default-button"}`}
+      className={`${className ? className : "gray-button"}`}
       style={styleProps}
       {...props} // Spread any additional props (e.g., name, value, etc.)
     >
