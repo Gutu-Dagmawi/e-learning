@@ -10,10 +10,10 @@ import "../src/styles/template.css";
 import "../src/styles/table.css";
 import "../src/styles/board.css";
 import "../src/styles/authentication.css";
-import Authentication from "./pages/Authentication.jsx";
 import FilterForm from "./components/FilterForm.jsx";
 import Table from "./components/Table.jsx";
 import { Selector } from "./components/Form.jsx";
+import Authentication from "./components/Authentication.jsx";
 
 function App({ page }) {
   const navProps = {
