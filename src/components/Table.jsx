@@ -1,4 +1,4 @@
-import "./table.css";
+import "../styles/table.css";
 
 export default function Table({ columnHeaders, data, ...props }) {
   return (

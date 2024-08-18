@@ -1,3 +1,5 @@
+import "../styles/btn.css";
+
 const Button = ({
   type = "button", // Default to 'button'
   disabled = false, // Button is enabled by default

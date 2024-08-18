@@ -1,11 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./components/btn.css";
-import "./components/board.css";
+import "./styles/btn.css";
+import "./styles/board.css";
 import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
+    <App page={"StudentGrades"} />
   </StrictMode>,
 );

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 body {
-  background-color: #f0f0f0;
+  font-size: 15px;
   font-family: "Open-Sans", sans-serif;
   margin: 0;
   padding: 0;
@@ -16,4 +16,24 @@ body {
   display: flex;
   height: 100vh;
   width: 100%;
+}
+
+.row-flex {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.label {
+  margin-left: 0;
+  font-size: 25px;
+  font-weight: 400;
+  color: #4d4c51;
 }

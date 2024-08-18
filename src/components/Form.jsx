@@ -1,9 +1,13 @@
-import "../pages/authentication.css";
+import "../styles/authentication.css";
 
-export function Selector({ selected, options, name, value }) {
+export function Selector({ selected, options, name, value, ...props }) {
   return (
     <>
-      <select className={"selector"} name={name} value={value}>
+      <select
+        className={`${props.className || "selector"}`}
+        name={name}
+        value={value}
+      >
         <option value={selected}>{selected}</option>
         {options.map((option, index) => (
           <option key={index} value={option}>

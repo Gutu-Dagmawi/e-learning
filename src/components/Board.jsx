@@ -1,3 +1,5 @@
+import "/src/styles/board.css";
+
 export default function Board({
   pageTitle,
   pageTag,
@@ -11,7 +13,7 @@ export default function Board({
         style={{
           fontFamily: "Poppins, sans-serif",
           display: "flex",
-          justifyContent: "space-between",
+          justifyContent: "space-evenly",
           alignItems: "center",
           flexDirection: "column",
           width: "84%",
@@ -27,7 +29,7 @@ export default function Board({
             justifyContent: "space-between",
             alignItems: "center",
             width: "100%",
-            height: "121px",
+            height: "119px",
           }}
         >
           <span

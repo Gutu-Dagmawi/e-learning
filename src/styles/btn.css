@@ -66,7 +66,7 @@
   width: 90%;
   text-align: left;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
   margin: 25px 0 2px 13px;
 }
@@ -80,22 +80,17 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin: 10px 0;
+  justify-content: space-evenly;
+  margin: 5px 0;
 }
 
 #logout-btn {
-  margin-top: 50px;
+  margin-top: 120px;
   background-color: #c85a4b;
 }
 
 #logout-btn:hover {
   background-color: #ab0000; /* Slightly darker red */
-}
-
-.authentication-btn {
-  font-size: 17px;
-  width: 100%;
 }
 
 #help-support-btn {
@@ -104,6 +99,12 @@
 
 #filter-btn {
   width: 150px;
+}
+
+.filter-btn-horizontal {
+  width: 100px;
+  height: 40px;
+  margin-top: 10px;
 }
 
 #clear-btn {

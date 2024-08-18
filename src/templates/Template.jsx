@@ -1,8 +1,8 @@
 import Nav from "../components/Nav.jsx";
 import Board from "../components/Board.jsx";
 import Button from "../components/Button.jsx";
-import "./template.css";
-import "../components/btn.css";
+import "../styles/template.css";
+import "../styles/btn.css";
 
 export function Template({ navProps, boardProps, ...props }) {
   return (

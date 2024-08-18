@@ -1,5 +1,5 @@
 import { LogoButton } from "./Button.jsx";
-import "./nav.css";
+import "../styles/nav.css";
 
 export default function Nav({ at_text, children, ...props }) {
   return (
@@ -10,6 +10,7 @@ export default function Nav({ at_text, children, ...props }) {
       >
         <header
           style={{
+            marginBottom: "25px",
             display: "flex",
             justifyContent: "flex-start",
             alignItems: "center",

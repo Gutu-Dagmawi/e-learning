@@ -2,10 +2,11 @@
 
 .auth-container {
   background-size: contain;
-  background: url("/public/attack-7647136_1280.png") no-repeat top right;
+  background-image: url("/public/attack-7647136_1280.png");
+  background-repeat: no-repeat;
+  background-position: top right;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-between;
   height: 100%;
   width: 100%;
 }
@@ -16,12 +17,12 @@
   font-weight: lighter;
   display: flex;
   align-self: center;
-  width: 450px;
-  padding: 150px 70px 150px 70px;
+  width: 500px;
+  padding: 150px 70px 150px 40px;
   height: 500px;
   flex-direction: column;
   justify-content: space-evenly;
-  margin: auto 10px;
+  margin: 235px 0 200px 0;
 }
 
 .header-logo {
@@ -64,19 +65,6 @@ h1 {
 #green-text {
   font-weight: bold;
   color: #7ec143;
-}
-
-.row-flex {
-  display: flex;
-  align-content: center;
-  justify-content: space-between;
-}
-
-.column-flex {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: flex-start;
 }
 
 .row-flex input {
@@ -124,6 +112,24 @@ h1 {
   border-color: #000;
   border-radius: 10px;
   padding: 10px;
-  width: 300px;
-  height: 50px;
+  width: 276px;
+  height: 40px;
+}
+
+.authentication-btn {
+  font-size: 17px;
+  margin-left: 7px;
+  width: 98%;
+}
+
+.grade-selector {
+  text-align: center;
+  width: 55px;
+  height: 36px;
+}
+
+.eligibility-selector {
+  text-align: center;
+  width: 95%;
+  height: 36px;
 }
