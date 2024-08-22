@@ -1,135 +1,136 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 .auth-container {
-  background-size: contain;
-  background-image: url("/public/attack-7647136_1280.png");
-  background-repeat: no-repeat;
-  background-position: top right;
-  display: flex;
-  justify-content: space-between;
-  height: 100%;
-  width: 100%;
+    background-size: contain;
+    background-image: url("/public/attack-7647136_1280.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
 }
 
 .main-form {
-  background-color: #e1f2f8;
-  font-family: "sans-serif", sans-serif;
-  font-weight: lighter;
-  display: flex;
-  align-self: center;
-  width: 500px;
-  padding: 150px 70px 150px 40px;
-  height: 500px;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin: 235px 0 200px 0;
+    background-color: #e1f2f8;
+    font-family: "sans-serif", sans-serif;
+    font-weight: lighter;
+    display: flex;
+    align-self: center;
+    width: 500px;
+    padding: 150px 70px 150px 40px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 235px 0 200px 0;
 }
 
 .header-logo {
-  align-content: center;
-  justify-content: center;
-  border-radius: 10px;
-  margin-left: 15px;
-  width: 85px;
-  height: 60px;
-  background: #7ec143;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 15px;
+    width: 85px;
+    height: 60px;
+    background: #7ec143;
 }
 
 .header-logo img {
-  margin: 5px;
-  padding: 7px;
-  background: #fff;
-  border-color: white;
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
+    margin: 5px;
+    padding: 7px;
+    background: #fff;
+    border-color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
 }
 
 h1 {
-  margin-left: 20px;
-  font-weight: lighter;
-  color: #58565b;
-  width: 100%;
+    margin-left: 20px;
+    font-weight: lighter;
+    color: #58565b;
+    width: 100%;
 }
 
 .form-header {
-  line-height: 1.3;
-  margin: 0;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 12px;
+    line-height: 1.3;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
 }
 
 #green-text {
-  font-weight: bold;
-  color: #7ec143;
+    font-weight: bold;
+    color: #7ec143;
 }
 
 .row-flex input {
-  border: none;
-  font-size: 18px;
-  color: dimgray;
-  font-weight: bold;
-  border-radius: 10px;
-  padding-left: 28px;
-  margin: 10px;
-  width: 75%;
-  height: 60px;
+    border: none;
+    font-size: 18px;
+    color: dimgray;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-left: 28px;
+    margin: 10px;
+    width: 75%;
+    height: 60px;
 }
 
 .input-bar {
-  border: none;
-  border-radius: 10px;
-  height: 160px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+    border: none;
+    border-radius: 10px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .input-logos {
-  width: 100%;
-  height: 90%;
+    width: 100%;
+    height: 90%;
 }
 
 .adj-logos {
-  border: 1px solid gray;
-  margin: auto;
+    border: 1px solid gray;
+    margin: auto;
 
-  border-radius: 10px;
-  padding: 5px;
-  width: 48px;
-  height: 60%;
+    border-radius: 10px;
+    padding: 5px;
+    width: 48px;
+    height: 60%;
 }
 
 .selector {
-  font-size: 16px;
-  letter-spacing: 1px;
-  margin: 10px 0;
-  color: dimgrey;
-  font-weight: lighter;
-  border-color: #000;
-  border-radius: 10px;
-  padding: 10px;
-  width: 276px;
-  height: 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+    color: dimgrey;
+    font-weight: lighter;
+    border-color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    width: 276px;
+    height: 40px;
 }
 
 .authentication-btn {
-  font-size: 17px;
-  margin-left: 7px;
-  width: 98%;
+    font-size: 17px;
+    margin-left: 7px;
+    width: 98%;
 }
 
 .grade-selector {
-  text-align: center;
-  width: 55px;
-  height: 36px;
+    text-align: center;
+    width: 55px;
+    height: 36px;
 }
 
 .eligibility-selector {
-  text-align: center;
-  width: 95%;
-  height: 36px;
+    text-align: center;
+    margin-right: 0;
+    width: 100%;
+    height: 36px;
 }
